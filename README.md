@@ -1,4 +1,4 @@
-#Vagrant_PyFab-Fabric
+# Vagrant_PyFab-Docker
 *_Basic Fabric implementation usign Vagrant._*
 
 *In this repo you'll find the Vagrant file and its python fabric provisioning file. Moreover, a fabfile.py with 4 declared roles (localhost, dev, stg, prod). You'll be able to generate shh keys and test them in a list of remote Servers.*
@@ -17,5 +17,4 @@ Execution example:
 	
 	#pending
 
-# Vagrant_PyFab-Docker
-# Vagrant_PyFab-Docker
+
