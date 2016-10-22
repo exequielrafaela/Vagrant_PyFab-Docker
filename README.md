@@ -10,9 +10,8 @@
   <a href="#">https://docs.docker.com/machine/install-machine/</a> |
   <a href="#">http://docs.fabfile.org/en/1.12/</a>
   <br><br>
-  <img src="https://github.com/exequielrafaela/Vagrant_PyFab-Fabric/blob/master/Figures/fabric_pyenv.png" 
-  <img src="https://github.com/exequielrafaela/Vagrant_PyFab-Docker/blob/master/Figures/Docker-logo-and-type.sh.png"
-  
+  <img src="https://github.com/exequielrafaela/Vagrant_PyFab-Fabric/blob/master/Figures/fabric_pyenv.png" img>
+  <img src="https://github.com/exequielrafaela/Vagrant_PyFab-Docker/blob/master/Figures/Docker-logo-and-type.png" img> 
 </p>
 
 Execution example: 
