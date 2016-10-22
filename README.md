@@ -1,16 +1,18 @@
 # Vagrant_PyFab-Docker
-*_Basic Fabric implementation usign Vagrant._*
+*_Basic Fabric implementation usign Vagrant to deploy a VM equiped with a Docker Toolbox in place Docker Engine + Docker Compose + Docker Machine._*
 
-*In this repo you'll find the Vagrant file and its python fabric provisioning file. Moreover, a fabfile.py with 4 declared roles (localhost, dev, stg, prod). You'll be able to generate shh keys and test them in a list of remote Servers.*
+*In this repo you'll find the Vagrant file and its python fabric provisioning file.*
 
 <p align="center">
   <b>Some Related Links:</b><br>
-  <a href="#">https://goo.gl/Nda5sd</a> |
-  <a href="#">goo.gl/fKiM57</a> |
-  <a href="#">https://goo.gl/yMNmON</a> |
+  <a href="#">https://docs.docker.com/engine/installation/</a> |
+  <a href="#">https://docs.docker.com/compose/install/</a> |
+  <a href="#">https://docs.docker.com/machine/install-machine/</a> |
   <a href="#">http://docs.fabfile.org/en/1.12/</a>
   <br><br>
   <img src="https://github.com/exequielrafaela/Vagrant_PyFab-Fabric/blob/master/Figures/fabric_pyenv.png" 
+  <img src="https://github.com/exequielrafaela/Vagrant_PyFab-Docker/blob/master/Figures/Docker-logo-and-type.sh.png"
+  
 </p>
 
 Execution example: 
