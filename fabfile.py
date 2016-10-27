@@ -20,6 +20,9 @@ def server():
                 with cd('/home/vagrant/proton'):
                     sudo('fab -R local install_docker_centos7')
 
+        with cd('/lemp_dcker_demo'):
+            run('docker-compose up -d')
+
         print colored('===================================================================', 'blue')
         print colored('FIREWALL - NAT TABLE STATUS:                       ', 'blue', attrs=['bold'])
         print colored('===================================================================', 'blue')
