@@ -5,13 +5,19 @@ from termcolor import colored
 
 def server():
     with settings(warn_only=False):
+        sudo('yum install -y git python-devel epel-release python-pip')
+        sudo('pip install --upgrade pip')
+        sudo('pip install fabric')
+        sudo('pip install termcolor')
+        sudo('pip install iptools')
+        sudo('pip install passlib')
         with cd('/home/vagrant'):
             if exists('/home/vagrant/proton', use_sudo=True):
                 with cd('/home/vagrant/proton'):
                     sudo('fab -R local install_docker_centos7')
             else:
+                run('git clone https://github.com/exequielrafaela/proton.git')
                 with cd('/home/vagrant/proton'):
-                    run('git clone https://github.com/exequielrafaela/proton.git')
                     sudo('fab -R local install_docker_centos7')
 
         print colored('===================================================================', 'blue')
