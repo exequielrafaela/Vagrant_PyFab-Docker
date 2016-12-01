@@ -2,6 +2,8 @@ from fabric.api import run, sudo, settings, hide, cd
 from fabric.contrib.files import exists
 from termcolor import colored
 
+#env.user = "root"
+#env.password = "vagrant"
 
 def server():
     with settings(warn_only=False):

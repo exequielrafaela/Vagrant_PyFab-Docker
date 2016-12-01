@@ -29,6 +29,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Create and configure the VM
   config.vm.define :server do |srv|
     srv.vm.box = "geerlingguy/centos7"
+    srv.vm.synced_folder ".", "/lemp_docker_demo", create: true
     # Configure CPU & RAM per settings
     srv.vm.provider "virtualbox" do |vb|
       vb.memory = 1024
